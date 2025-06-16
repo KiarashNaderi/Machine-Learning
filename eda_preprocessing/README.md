@@ -1,24 +1,23 @@
-# 🧠 EDA & Data Preprocessing 
+# 🧠 Real-World EDA & Data Preprocessing – Airbnb NYC
 
-A complete, block-based Jupyter Notebook that demonstrates a full real-world preprocessing workflow on customer data — from raw CSV to clean, model-ready format.
+A full, block-based Jupyter Notebook demonstrating an end-to-end preprocessing and exploratory data analysis (EDA) pipeline on a real-world dataset.
 
-📌 Dataset: [Telco Customer Churn – Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+📌 Dataset: [Airbnb NYC 2019 – Kaggle](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
 
 ---
 
-## 🎯 Objective
+## 🎯 Project Objective
 
-This notebook implements a robust and scalable preprocessing pipeline for real-world tabular data. It includes every critical step in preparing data for predictive modeling, with clean structure and professional documentation.
+To build a professional, modular, and fully documented preprocessing pipeline for real-world property rental data.  
+This notebook takes you from raw CSV to clean, model-ready features — ready for regression or price analysis.
 
 ---
 
 ## 🧱 Notebook Structure
-📘 full_eda_preprocessing.ipynb
-📝 README.md
 
-All steps are implemented in a single notebook with clearly separated chapters:
+All steps are implemented in one single Jupyter Notebook using clearly separated chapters:
 
-| Chapter | Description |
+| Chapter | Title |
 |--------|-------------------------------|
 | 0 | Introduction |
 | 1 | Data Loading & Initial Exploration |
@@ -28,18 +27,21 @@ All steps are implemented in a single notebook with clearly separated chapters:
 | 5 | Feature Engineering |
 | 6 | Data Splitting & Final Preparation |
 
+📁 Files included:
+📘 full_eda_preprocessing.ipynb
+📝 README.md
+
+
 ---
 
 ## 🧪 Dataset Overview
 
-- Dataset: Telco Customer Churn  
-- Type: Binary Classification  
-- Features: Numerical, Categorical, and Text  
-- Contains: Missing values, data type issues, imbalanced target variable
+- Dataset: Airbnb listings in NYC (2019)  
+- Target variable: `price` (Regression problem)  
+- Includes: textual, numeric, date, and location-based features  
+- Challenges: outliers, missing values, dirty columns, inconsistent types
 
 ---
-
-## ⚙️ Technologies Used
 
 ## ⚙️ Technologies Used
 
@@ -50,27 +52,17 @@ All steps are implemented in a single notebook with clearly separated chapters:
 - matplotlib
 - seaborn
 - scikit-learn
-- imbalanced-learn
 - missingno (optional)
 
 ---
 
-## 🔍 Highlights
+## 🔍 Key Features of This Project
 
-- Real-world cleaning of object-based numeric fields
-- Handling missing values with logic-based decisions
-- Visualization-driven EDA and outlier analysis
-- Balanced encoding and feature scaling strategies
-- Modular, reusable structure for ML projects
-
----
-
-## 🚀 How to Use
-
-1. Download the dataset from Kaggle.
-2. Place the CSV file in the same directory as the notebook.
-3. Run `full_course_eda_preprocessing.ipynb` step by step.
-4. Use it as a template or base pipeline in your ML workflows.
+- Handles real-world dirty data and missing values
+- Detects and processes price outliers
+- Converts dates, text, and categories into usable features
+- Builds a full preprocessing pipeline for modeling
+- Suitable for regression tasks like price prediction
 
 ---
 
