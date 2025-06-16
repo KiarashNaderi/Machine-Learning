@@ -8,7 +8,7 @@ To equip learners and data practitioners with hands-on, block-based, Jupyter Not
 
 ---
 
-## 📘 What You'll Learn
+## 📘 What You'll See
 
 - How to inspect and understand raw data
 - Cleaning messy and incomplete datasets
